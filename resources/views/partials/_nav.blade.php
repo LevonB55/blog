@@ -26,6 +26,7 @@
             <a class="dropdown-item" href="{{route('logout')}}">Logout</a>
         </div>
         @else
+            <a href="{{route('register')}}" class="btn btn-default">Register</a>
             <a href="{{route('login')}}" class="btn btn-default">Login</a>
         @endif
     </div>
